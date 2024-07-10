@@ -1,69 +1,68 @@
 # Klusterisasi Gambar menggunakan KMeans
-#### AdamDwiMaulana 312210242 TI22B1
+#### Mohamad Adria Vanza 3122210171 TI.22.B1
 
 Kali ini kita akan klusterisasi sebuah foto atau gambar dengan algoritma KMeans.
 
-sebelumnya kita berkenalan terlebih dahulu dengan KMeans
-
-K-Means adalah salah satu algoritma clustering yang paling populer dalam analisis data. Tujuannya adalah untuk mengelompokkan data ke dalam k kelompok berdasarkan atribut yang mirip. Algoritma ini bekerja dengan cara mengiterasi antara dua langkah utama:
-
-Assign: Mengatribusikan setiap titik data ke kelompok yang paling dekat dengannya berdasarkan nilai rata-rata (centroid) kelompok tersebut.
-
-Update: Memperbarui posisi centroid untuk setiap kelompok dengan menghitung nilai rata-rata dari semua titik data yang telah diatribusikan ke kelompok tersebut.
-
-Iterasi ini terus berlanjut hingga tidak ada perubahan signifikan dalam atribusi titik data ke kelompok atau posisi centroid. K-Means biasanya digunakan untuk analisis cluster di mana jumlah kelompok (k) telah ditentukan sebelumnya.
-
-
-Pada script `kmean.py` akan menjalankan klusterisasi dalam beberapa kali tergantung
-apa yang kita masukan pada bagian
-`k = 7`
-
-Untuk menjalankan program pastikan anda sudah menginstall library yang dibutuhkan sebagai berikut :
-`pip install opencv-python numpy matplotlip scikit-learn`
-
-setelah itu untuk merunning silahkan ketik `python kmean.py`
-
-nanti akan muncul gambar original lalu anda bisa close untuk menampilkan iterasi gambar yang sudah terclusterisasi waktu tunggu sekitar 1 menit untuk proses cluterisasi setelah anda close gambar yang pertama
-
-Berikut Foto original sebelum diklusterisasi
-
-
-![image](/img/foto1.jpeg)
-
-
 Berikut hasil foto yang sudah mengalami perubahan sebanyak 7 kali ini bergantung pada script ` k =`
 
-### Segmented image
-
-![segmented](/hasil_clusterisasi/Segmented.png)
 
 ### Cluster1 image
 
-![cluster1](/hasil_clusterisasi/Cluster_1.png)
+![pengolahan](https://github.com/MohamadAdriaVanza4/UAS-PengolahanCitra/assets/115931631/9545eb55-0026-40da-9e59-7debfb964ecf)
 
 ### Cluster_2 image
 
-![cluster_2](/hasil_clusterisasi/Cluster_2.png)
+![pengolahan1](https://github.com/MohamadAdriaVanza4/UAS-PengolahanCitra/assets/115931631/b8b962b2-6b9c-4620-8e4b-c0cc79ef9631)
+
 
 ### Cluster_3 image
 
-![cluster_3](/hasil_clusterisasi/Cluster_3.png)
+![penglahan2](https://github.com/MohamadAdriaVanza4/UAS-PengolahanCitra/assets/115931631/27f94e69-fb84-42f5-ae2b-a05ea4ed642e)
+
 
 ### Cluster_4 image
 
-![cluster_4](/hasil_clusterisasi/Cluster_4.png)
+![pengolahan3](https://github.com/MohamadAdriaVanza4/UAS-PengolahanCitra/assets/115931631/892eddfd-7791-47a3-9b35-1b00ba3dff3a)
 
 ### Cluster_5 image
 
-![cluster_5](/hasil_clusterisasi/Cluster_5.png)
+![pengolahan4](https://github.com/MohamadAdriaVanza4/UAS-PengolahanCitra/assets/115931631/49f16c09-168e-4089-9617-78c2ab9144d9)
 
 ### Cluster_6 image
 
-![cluster_6](/hasil_clusterisasi/Cluster_6.png)
+![pengolahan5](https://github.com/MohamadAdriaVanza4/UAS-PengolahanCitra/assets/115931631/481217b7-aad7-4b28-ae61-7562073897c8)
 
 ### Cluster_7 image
 
-![cluster_7](/hasil_clusterisasi/Cluster_7.png)
+![penglahan6](https://github.com/MohamadAdriaVanza4/UAS-PengolahanCitra/assets/115931631/8437cee5-0257-41e6-85c7-a3c7a4a25661)
+
+### Cluster_8 image
+
+![pengolahan7](https://github.com/MohamadAdriaVanza4/UAS-PengolahanCitra/assets/115931631/a79ecd0e-3df7-473b-ab82-439dc73ee7fc)
+
+### Cluster_9 image
+
+![pengolahan8](https://github.com/MohamadAdriaVanza4/UAS-PengolahanCitra/assets/115931631/ba15d145-a801-469b-8810-fd5926a2ab35)
+
+### Cluster_10 image
+
+![pengolahan10](https://github.com/MohamadAdriaVanza4/UAS-PengolahanCitra/assets/115931631/32ab5653-aaf2-4bf3-80d6-92cb392ef05f)
+
+### Cluster_11 image
+
+![pengolahan11](https://github.com/MohamadAdriaVanza4/UAS-PengolahanCitra/assets/115931631/2877f868-9580-48f6-a8da-0fe3a0ab7e34)
+
+### Cluster_12 image
+
+![pengolahan12](https://github.com/MohamadAdriaVanza4/UAS-PengolahanCitra/assets/115931631/bb60cde5-cddd-4652-b249-8954bc07c885)
+
+### Cluster_13 image
+
+![pengolahan13](https://github.com/MohamadAdriaVanza4/UAS-PengolahanCitra/assets/115931631/bed9792a-c9fe-4f61-893f-815dd1752f3a)
+
+### Cluster_13 image
+
+![pengolahan14](https://github.com/MohamadAdriaVanza4/UAS-PengolahanCitra/assets/115931631/abdc6914-729a-473c-8ad6-a313795496a9)
 
 Untuk melakukan clusterisasi membutuhkan waktu untuk prosesnya jadi untuk memunculkan hasilnya butuh waktu sekitar 1 menit atau lebih ini bergantung kepada kapasitas device kita. semaking tinggi spesifikasi device semakin cepat dia dalam memprosesnya.
 
@@ -74,12 +73,5 @@ Selamat mencoba, semoga bermanfaat
 
 #### Link Tugas UTS pengolahan Citra
 
-Github :
-[https://github.com/adamdwidev/uts-pengolahan-citra](https://github.com/adamdwidev/uts-pengolahan-citra)
-
 Hasil Streamlit :
-[https://adamwebdev.streamlit.app/tugas](https://adamwebdev.streamlit.app/tugas)
-
-
-
-
+[(https://pengolahan-citra-undffmuqrwr9otlgayzvqc.streamlit.app/)]
